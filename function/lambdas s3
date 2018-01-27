@@ -1,0 +1,7 @@
+exports.handler = (event, context, callback) => {
+    // TODO implement
+    callback(null, 'Hello from Issy');
+    
+    console.log("..........Message recieved....")
+    console.log(JSON.stringify(event));
+};
